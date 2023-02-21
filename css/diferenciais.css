@@ -1,0 +1,39 @@
+.diferenciais{
+    padding: 3.5rem 0;
+}
+
+.diferenciais-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.diferenciais-tempo{
+    /* content: '*'; */
+    /* list-style-image: url("https://squids.com.br/icons/drive.png"); */
+    background: url(../img/icone-relogio.png);
+}
+
+.diferenciais-foco{
+    background: url(../img/icone-dinheiro.png);
+}
+
+.diferenciais-especialista{
+    background: url(../img/icone-quimica.png);
+}
+
+.diferenciais-item{
+    padding: 2rem 0rem 2rem 5rem;
+    box-sizing: border-box;
+    max-width: 350px;
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.25rem;
+}
+
+.diferenciais-titulo{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--cor-cinza-escuro);
+}
